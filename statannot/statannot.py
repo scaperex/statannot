@@ -439,7 +439,7 @@ def add_stat_annotation(ax, plot='boxplot',
             x, y, hue, data, order, hue_order,
             estimator=np.mean, ci=95, n_boot=1000, units=None,
             orient=None, color=None, palette=None, saturation=.75,
-            errcolor=".26", errwidth=None, capsize=None, dodge=True)
+            errcolor=".26", errwidth=None, capsize=None, dodge=True, seed=None)
 
     # Build the list of box data structures with the x and ymax positions
     group_names = box_plotter.group_names
